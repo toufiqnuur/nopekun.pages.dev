@@ -9,7 +9,9 @@ export default function Home() {
             <title>Portfolio: Toufiq Nuur Rahman</title>
             <meta name="description" content="Hi! My name is Toufiq Nuur Rahman and i'm a front end web developer." />
             <link rel="icon" href="/favicon.ico" />
-            <link href="https://fonts.googleapis.com/css2?family=Inter&display=optional" rel="stylesheet" />
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+            <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
          </Head>
          
          <div className="container mt-8 md:mt-32">
