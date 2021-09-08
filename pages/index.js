@@ -16,7 +16,7 @@ export default function Home() {
            
             <div className="mb-16 md:mb-24">
                <h1 className="text-2xl md:text-3xl font-semibold mb-3">👋 Hi, Iam Toufiq Nuur Rahman</h1>
-               <p className="md:text-xl mb-6">I'm a front end web developer mostly work with JavaScript.</p>
+               <p className="md:text-xl mb-6">I&apos;m a front end web developer mostly work with JavaScript.</p>
            </div>  
             
             
@@ -67,8 +67,8 @@ export default function Home() {
       
             <Section title="☎️ Contacts">
                <ul className="list-disc list-inside">
-                  <li>Email : <a target="_blank" href="mailto:taufik2017yk@gmail.com">taufik2017yk@gmail.com</a></li>
-                  <li>Instagram : <a target="_blank" href="https://instagram.com/nope.kun">nope.kun</a></li>
+                  <li>Email : <a target="_blank" rel="noreferrer" href="mailto:taufik2017yk@gmail.com">taufik2017yk@gmail.com</a></li>
+                  <li>Instagram : <a target="_blank" rel="noreferrer" href="https://instagram.com/nope.kun">nope.kun</a></li>
                </ul>
             </Section>
          </div>  

@@ -3,7 +3,9 @@ export default function Project({name, techStack, link}) {
       <div className="py-4">
          <div className="flex space-x-2">  
             {techStack.map((name)=> (
-               <span className="text-sm bg-gray-200 px-2 py-1 rounded">
+               <span 
+                  key="name"
+                  className="text-sm bg-gray-200 px-2 py-1 rounded">
                   {name}
                </span>
             ))}
@@ -15,6 +17,7 @@ export default function Project({name, techStack, link}) {
             <a 
                className="hover:bg-yellow-200 px-2 py-1 rounded" 
                target="_blank" 
+               rel="noreferrer"
                href={link.demo}
             >
                🚀 Live
@@ -22,6 +25,7 @@ export default function Project({name, techStack, link}) {
             <a 
                className="hover:bg-yellow-200 px-2 py-1 rounded" 
                target="_blank" 
+               rel="noreferrer"
                href={`https://github.com/toufiqnuur/${link.source}`}
             >
                📝 Source
