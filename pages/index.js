@@ -17,13 +17,13 @@ export default function Home() {
          <div className="container mt-8 md:mt-32">
            
             <div className="mb-16 md:mb-24">
-               <h1 className="text-2xl md:text-3xl font-semibold mb-3">👋 Hi, Iam Toufiq Nuur Rahman</h1>
-               <p className="md:text-xl mb-6">I&apos;m a front end web developer mostly work with JavaScript.</p>
+               <h1 className="text-2xl md:text-5xl font-semibold mb-3">👋 Hi, Iam Toufiq Nuur Rahman</h1>
+               <p className="md:text-3xl mb-6">I&apos;m a front end web developer mostly work with JavaScript.</p>
            </div>  
             
             
             <Section title="🛠️ Skills">
-               <ul className="list-disc list-inside">
+               <ul className="list-disc list-inside md:text-xl">
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Tailwind Css</li>
@@ -68,7 +68,7 @@ export default function Home() {
       
       
             <Section title="☎️ Contacts">
-               <ul className="list-disc list-inside">
+               <ul className="list-disc list-inside md:text-xl">
                   <li>Email : <a target="_blank" rel="noreferrer" href="mailto:taufik2017yk@gmail.com">taufik2017yk@gmail.com</a></li>
                   <li>Instagram : <a target="_blank" rel="noreferrer" href="https://instagram.com/nope.kun">nope.kun</a></li>
                </ul>

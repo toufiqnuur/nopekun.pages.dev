@@ -10,7 +10,7 @@ export default function Project({name, techStack, link}) {
                </span>
             ))}
          </div>  
-         <h5 className="text-lg my-2">
+         <h5 className="text-lg md:text-xl my-2">
             {name}
          </h5>
          <div className="flex space-x-2">  
