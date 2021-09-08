@@ -27,10 +27,10 @@ export default function Home() {
                   <li>Tailwind Css</li>
                   <li>Bootstrap</li>
                   <li>JS</li>
-                  <li>TypeScript: Begginer</li>
+                  <li>TypeScript: Beginner</li>
                   <li>SvelteKit: Intermediate</li>
-                  <li>VueJs: Begginer</li>
-                  <li>NextJs: Begginer</li>
+                  <li>VueJs: Beginner</li>
+                  <li>NextJs: Beginner</li>
                </ul>
             </Section>
             
